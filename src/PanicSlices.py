@@ -1,0 +1,12 @@
+phrase="Don't panic!";
+plist=list(phrase);
+print(phrase);
+print(plist);
+plist=plist[1:-4:];
+print(plist);
+klist=(plist[0:2]);
+klist.append(plist[4]);
+klist.append(plist[3]);
+klist.append(plist[-1]);
+klist.append(plist[-2]);
+print(klist);
